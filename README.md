@@ -1,34 +1,28 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+# Ceramic
 
-## Getting Started
+Created as part of the [Learn Web3 DAO](https://www.learnweb3.io/) Junior Tack.
 
-First, run the development server:
+This code was written for Level 8: Ceramic
 
-```bash
-npm run dev
-# or
-yarn dev
-```
+Public tutorial not available at the time of this writing.
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+This project creates a Next.js app using Self.ID from Ceramic, allowing a user to login with a wallet of their choosing and write data to a decentralized profile on the Ceramic Network.
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## Overview Info
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+Network: Ceramic
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+Languages: JavaScript
 
-## Learn More
+Verification of profile's StreamID: did:3:kjzl6cwe1jw149vg4vrhr8mfocqghp7yyhnnqrfnxj3x7dzqj2r9y9gberm3tcu
 
-To learn more about Next.js, take a look at the following resources:
+## This tutorial covers:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+- Using the Ceramic Network
+- Hardhat & Ethers.js
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+## Technology/Websites used:
 
-## Deploy on Vercel
-
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
-
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+- [Ceramic Network](https://ceramic.network/)
+- [Hardhat](https://hardhat.org/)
+- [Ethers.js](https://docs.ethers.io/v5/)
